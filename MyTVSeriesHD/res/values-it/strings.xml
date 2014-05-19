@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">My TV Series HD</string>
+    <string name="menu_settings">Impostazioni</string>
+    <string name="action_settings">Impostazioni</string>
+    
+    <string name="title_activity_video">Video Player</string>
+    
+    <string name="title_activity_series_list">Lista Serie</string>
+	<string name="title_activity_new_series">Aggiungi nuova serie</string>
+	
+	<string name="title_section_filter">Filtri</string>
+	<string name="title_section_tonight_in_tv">Prossimamente in tv</string>
+    <string name="title_section_all_series">Tutte le serie</string>
+	
+    <string name="series_name">Nome della serie</string>
+    <string name="add_series">Aggiungi nuova serie</string>
+    <string name="add_series_short">Nuova</string>
+	<string name="empty_series_list">Nessuna serie da visualizzare</string>
+	<string name="empty_episode_list">Nessun episodio da visualizzare</string>
+	<string name="ic_menu_expand">Informazioni sulla serie</string>
+	
+	<string name="no_overview">Descrizione della serie non disponibile</string>
+	
+	<string name="saveLabel">Salva</string>
+	
+	<string name="watch_calendar">Guarda il calendario</string>
+	
+	<string name="filter_series">Filtra serie</string>
+	
+	<string name="filter_series_short">Filtra</string>
+	
+	<string name="filter_view">Puntate da vedere</string>
+	
+	<string name="filter_download">Puntate da scaricare</string>
+	
+	<string name="filter_sub">Puntate da sottotitolare</string>
+	
+	<string name="refresh_series">Aggiorna le serie</string>
+	
+	<string name="refresh_series_short">Aggiorna</string>
+	
+	<string name="upload_cloud">Salva la configurazione sul Cloud</string>
+	
+	<string name="upload_cloud_short">Salva sul Cloud</string>
+	
+	<string name="synch_category_title_it_IT">Sincronizzazione</string>
+    <string name="synch_category_summary_it_IT">Gestisci le opzioni per la sincronizzazione</string>
+    
+    <string name="pref_summary_auto_synch">Attiva o disattiva la sincronizzazione automatica</string>
+    <string name="pref_title_auto_synch">Sincronizzazione automatica</string>
+    <string name="pref_summary_interval_synch">Seleziona l\'intervallo di aggiornamento in minuti</string>
+    <string name="pref_title_interval_synch">Intervallo di aggiornamento</string>
+    <string name="pref_summary_feed_synch">Seleziona come alimentare l\'aggiornamento degli episodi</string>
+    <string name="pref_title_feed_synch">Feed</string>
+    <string name="pref_summary_sub_feed_synch">Seleziona come alimentare l\'aggiornamento dei sottotitoli</string>
+    <string name="pref_title_sub_feed_synch">Feed sottotitoli</string>
+        
+    <string name="pref_title_cloud">Configura cloud</string>
+    <string name="pref_summary_cloud">Effettua la login con il tuo account dropbox per avere le tue serie preferite, sempre con te</string>
+    <string name="pref_title_login_on_dropbox">Effettua la login</string>
+    <string name="pref_summary_login_on_dropbox">Non hai ancora effettuato la login sul tuo account DropBox</string>
+    <string name="pref_title_load_by_dropbox">Allinea con il cloud</string>
+    <string name="pref_summary_load_by_dropbox">Carica tutte le serie e le puntate che hai salvato sul tuo cloud dropbox</string>
+    <string name="pref_title_load_on_dropbox">Salva sul cloud</string>
+    <string name="pref_summary_load_on_dropbox">Salva tutte le serie e le puntate dal tuo dispositivo sul tuo cloud dropbox</string>
+    
+    <string name="pref_title_general">Configurazione</string>
+    <string name="pref_summary_general">Imposta le preferenze base, per i comandi dell\'applicazione</string>
+    
+    <string name="pref_title_general_folder">Storage</string>
+    <string name="pref_title_general_folder_main">Cartella principale</string>
+    <string name="pref_summary_general_folder_main">Imposta la cartella principale, in cui verrano salvate tutte le puntate e i relativi sottotitoli</string>
+    
+    <string name="pref_title_general_folder_download">Cartella Download</string>
+    <string name="pref_summary_general_folder_download">Imposta la cartella dove il tuo client Torrent salva i tuoi downloads</string>
+    
+    <string name="pref_title_general_download_site">Download</string>
+    <string name="pref_title_general_download_site_main">Sito di ricerca Torrent</string>
+    <string name="pref_summary_general_download_site_main">Imposta l\'URL del sito di KickassTorrent funzionante</string>
+    
+    <string name="pref_title_general_video_player">Video Player</string>
+    <string name="pref_title_general_select_video_player">Utilizzare il MyTVSeries Video Player</string>
+    <string name="pref_summary_general_move_on_video_player_on">Utilizza il MyTVSeries Video Player</string>
+    <string name="pref_summary_general_move_on_video_player_off">Utilizzare un\'altro Video Player </string>
+    
+    <string name="pref_title_general_view">Vedi episodio</string>
+    <string name="pref_title_general_move_on_view">Sposta episodio visto</string>
+    <string name="pref_summary_general_move_on_view_on">I files della puntata verranno spostati subito dopo averla vista</string>
+    <string name="pref_summary_general_move_on_view_off">I files della puntata non verranno spostati subito dopo averla vista</string>
+    <string name="pref_title_general_folder_view">Episodi visti</string>
+    <string name="pref_summary_general_folder_view">Seleziona dove spostare i files della puntata vista</string>
+
+    <string name="pref_title_general_download">Scarica episodio</string>
+    <string name="pref_title_general_move_on_download">Sposta episodio scaricato</string>
+    <string name="pref_summary_general_move_on_download_on">Il file video della puntata verrà spostato subito dopo averlo scaricato</string>
+    <string name="pref_summary_general_move_on_download_off">Il file video della puntata non verrà spostato dopo averlo scaricato</string>
+    
+    <string name="pref_title_general_sub">Sottotitola episodio</string>
+    <string name="pref_title_general_move_on_sub">Sposta sottotitoli</string>
+    <string name="pref_summary_general_move_on_sub_on">Il file del sottotitolo verrà spostato subito dopo averlo scaricato</string>
+    <string name="pref_summary_general_move_on_sub_off">Il file del sottotitolo non verrà spostato dopo averlo scaricato</string>
+    
+    <string name="pref_title_itasa">Configura Itasa</string>
+    <string name="pref_summary_itasa">Effettua la login con il tuo account itasa per essere sempre aggiornato sui tuoi sottotitoli</string>
+    <string name="pref_title_login_on_itasa">Effettua la login</string>
+    <string name="pref_summary_login_on_itasa">Non hai ancora effettuato la login sul tuo account Itasa</string>
+    
+    <string name="action_sign_in_register">Entra</string>
+    <string name="delete">Elimina l\'elemento</string>
+    <string name="delete_short">Elimina</string>
+    <string name="search">Cerca</string>
+    
+    <string name="drawer_open">Apri</string>
+    <string name="drawer_close">Chiudi</string>
+    
+    <string name="progress_saving">Sto aggiungendo la serie&#8230;</string>
+
+    <string-array name="menu_array">
+        <item>Home</item>
+        <item>Episodi da Scaricare</item>
+        <item>Episodi in Download</item>
+        <item>Episodi da Sottotitolare</item>
+        <item>Episodi da Vedere</item>
+        <item>Impostazioni</item>
+        <item>Aiuto</item>
+    </string-array>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.mytvstyle" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_mytvstyle</item>
+        <item name="android:popupMenuStyle">@style/mytvstyle_PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/mytvstyle_DropDownListView</item>
+        <item name="android:actionBarTabStyle">@style/mytvstyle_ActionBarTabStyle</item>
+        <item name="android:actionDropDownStyle">@style/mytvstyle_DropDownNav</item>
+        <item name="android:actionBarStyle">@style/mytvstyle_solid_ActionBar</item>
+        <item name="android:panelBackground">@drawable/menu_hardkey_panel_mytvstyle</item>
+        <!-- <item name="android:radioButtonStyle">@style/RadioButton</item> -->
+    </style>
+
+    <style name="mytvstyle_solid_ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_mytvstyle</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_mytvstyle</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_mytvstyle</item>
+        <item name="android:progressBarStyle">@style/mytvstyle_ProgressBar</item>
+        <item name="android:titleTextStyle">@style/mytvstyle_TitleTextStyle</item>
+    </style>
+
+    <style name="mytvstyle_transparent_ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_mytvstyle</item>
+        <item name="android:progressBarStyle">@style/mytvstyle_ProgressBar</item>
+    </style>
+
+    <style name="mytvstyle_PopupMenu" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_mytvstyle</item>	
+    </style>
+
+    <style name="mytvstyle_DropDownListView" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_mytvstyle</item>
+    </style>
+
+    <style name="mytvstyle_ActionBarTabStyle" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_mytvstyle</item>
+    </style>
+
+    <style name="mytvstyle_DropDownNav" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_mytvstyle</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_mytvstyle</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_mytvstyle</item>
+    </style>
+    
+    <style name="mytvstyle_ProgressBar" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_mytvstyle</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.mytvstyle.widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/mytvstyle_PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/mytvstyle_DropDownListView</item>
+    </style>
+    
+    <style name="mytvstyle_TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    	<item name="android:textColor">@android:color/white</item>
+  	</style>
+  	
+    <!-- <style name="RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+	   <item name="android:button">@drawable/radio</item>
+	</style> -->
+
+</resources>

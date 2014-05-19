@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/posterContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/uniform_shape" />
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/relativeText"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginTop="20dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/poster"
+        android:layout_alignRight="@+id/poster"
+        android:layout_alignTop="@+id/poster"
+        android:layout_marginTop="1dp"
+        android:layout_alignStart="@+id/poster"
+        android:layout_alignEnd="@+id/poster"
+        android:background="@drawable/gradient_shape"
+        android:orientation="horizontal"
+        android:paddingBottom="1dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="1dp" >
+
+        <TextView
+            android:id="@+id/myImageViewText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center|left"
+            android:lines="1"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:singleLine="true"
+            android:textAlignment="textEnd"
+            android:textColor="@color/mycolor"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/poster"
+        android:layout_alignLeft="@+id/poster"
+        android:layout_alignRight="@+id/poster"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/gradient_shape"
+        android:orientation="horizontal"
+        android:paddingBottom="1dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="1dp" >
+
+        <TextView
+            android:id="@+id/myImageViewText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center|left"
+            android:lines="1"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:singleLine="true"
+            android:textAlignment="textEnd"
+            android:textColor="@color/mycolor"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

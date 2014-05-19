@@ -1,0 +1,20 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <header
+        android:fragment="it.tiedor.mytvserieshd.MySettingsActivity$PrefsFragmentGeneral"
+        android:icon="@drawable/ic_general_settings"
+        android:summary="@string/pref_summary_general"
+        android:title="@string/pref_title_general" />
+    <!--
+    <header android:fragment="it.tiedor.mytvserieshd.MySettingsActivity$PrefsFragmentCloud"
+            android:icon="@drawable/ic_menu_dropbox"
+            android:title="@string/pref_title_cloud"
+            android:summary="@string/pref_summary_cloud" />
+    -->
+    <header
+        android:fragment="it.tiedor.mytvserieshd.MySettingsActivity$PrefsFragmentItasa"
+        android:icon="@drawable/ic_my_itasa"
+        android:summary="@string/pref_summary_itasa"
+        android:title="@string/pref_title_itasa" />
+
+</preference-headers>

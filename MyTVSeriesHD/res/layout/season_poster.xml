@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/posterContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="fill_parent"
+        android:layout_height="265dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <RelativeLayout
+        android:id="@+id/relativeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/poster"
+        android:layout_alignLeft="@+id/poster"
+        android:layout_alignRight="@+id/poster"
+        android:background="@drawable/gradient_shape"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/myImageViewText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:shadowColor="#00ccff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text=""
+            android:textAlignment="textEnd"
+            android:textColor="@color/mycolor"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/favourite"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/myImageViewText"
+            android:src="@android:drawable/btn_star" />
+    </RelativeLayout>
+
+</RelativeLayout>

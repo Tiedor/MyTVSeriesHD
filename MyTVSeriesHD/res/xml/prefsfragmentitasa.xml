@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory 
+        android:title="@string/pref_title_itasa"
+        android:key="pref_key_storage_settings_itasa">
+        <PreferenceScreen
+            android:title="@string/pref_title_login_on_itasa"
+	        android:summary="@string/pref_summary_login_on_itasa"
+	        android:key="itasa_user">
+			<intent
+			    android:action="android.intent.action.VIEW"
+		        android:targetPackage="it.tiedor.mytvserieshd"
+		        android:targetClass="it.tiedor.mytvserieshd.MyItasaLoginActivity"
+		         />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

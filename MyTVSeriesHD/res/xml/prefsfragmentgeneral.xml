@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_key_storage_settings_general_folders"
+        android:title="@string/pref_title_general_folder" >
+        <PreferenceScreen
+            android:key="folder_main"
+            android:summary="@string/pref_summary_general_folder_main"
+            android:title="@string/pref_title_general_folder_main">
+        </PreferenceScreen>
+        <!-- EditTextPreference
+            android:defaultValue="/Movies"
+            android:key="folder_main"
+            android:summary="@string/pref_summary_general_folder_main"
+            android:title="@string/pref_title_general_folder_main" >
+        </EditTextPreference -->
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_key_storage_settings_general_view"
+        android:title="@string/pref_title_general_view" >
+        <SwitchPreference
+            android:defaultValue="true"
+            android:disableDependentsState="false"
+            android:key="move_on_view"
+            android:summaryOff="@string/pref_summary_general_move_on_view_off"
+            android:summaryOn="@string/pref_summary_general_move_on_view_on"
+            android:title="@string/pref_title_general_move_on_view" >
+        </SwitchPreference>
+
+        <PreferenceScreen
+           android:dependency="move_on_view"
+            android:key="folder_view"
+            android:summary="@string/pref_summary_general_folder_view"
+            android:title="@string/pref_title_general_folder_view" >
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_storage_settings_general_download_sites"
+        android:title="@string/pref_title_general_download_site" >
+        <EditTextPreference
+            android:defaultValue="http://kickasstorrent.net"
+            android:key="download_site_main"
+            android:summary="@string/pref_summary_general_download_site_main"
+            android:title="@string/pref_title_general_download_site_main" >
+        </EditTextPreference>
+        <PreferenceScreen
+            android:key="folder_download"
+            android:summary="@string/pref_summary_general_folder_download"
+            android:title="@string/pref_title_general_folder_download">
+        </PreferenceScreen>
+    </PreferenceCategory>
+	
+    <!--
+     <PreferenceCategory 
+    	android:title="@string/pref_title_general_download"
+        android:key="pref_key_storage_settings_general_download">
+        <SwitchPreference
+            android:title="@string/pref_title_general_move_on_download"
+            android:summaryOn="@string/pref_summary_general_move_on_download_on"
+            android:summaryOff="@string/pref_summary_general_move_on_download_off"
+            android:disableDependentsState="true"
+            android:key="move_on_download"
+            android:defaultValue="true">
+        </SwitchPreference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+    	android:title="@string/pref_title_general_sub"
+        android:key="pref_key_storage_settings_general_sub">
+        <SwitchPreference
+            android:title="@string/pref_title_general_move_on_sub"
+            android:summaryOn="@string/pref_summary_general_move_on_sub_on"
+            android:summaryOff="@string/pref_summary_general_move_on_sub_off"
+            android:disableDependentsState="true"
+            android:key="move_on_sub"
+            android:defaultValue="true">
+        </SwitchPreference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+    	android:title="@string/pref_title_general_video_player"
+        android:key="pref_key_storage_settings_general_video_player">
+        <SwitchPreference
+            android:title="@string/pref_title_general_select_video_player"
+            android:summaryOn="@string/pref_summary_general_move_on_video_player_on"
+            android:summaryOff="@string/pref_summary_general_move_on_video_player_off"
+            android:key="default_video_player"
+            android:defaultValue="false">
+        </SwitchPreference>
+    </PreferenceCategory>
+
+	-->
+
+</PreferenceScreen>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory 
+        android:title="@string/pref_title_cloud"
+        android:key="pref_key_storage_settings_cloud">
+        <PreferenceScreen
+            android:title="@string/pref_title_login_on_dropbox"
+	        android:summary="@string/pref_summary_login_on_dropbox"
+	        android:key="dropbox_user">
+			<intent
+			    android:action="android.intent.action.VIEW"
+		        android:targetPackage="it.tiedor.android.mytvSeries"
+		        android:targetClass="it.tiedor.android.mytvSeries.MyDropBoxLoginActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="@string/pref_title_load_by_dropbox"
+	        android:summary="@string/pref_summary_load_by_dropbox"
+	        android:key="dropbox_download">
+			<intent
+			    android:action="android.intent.action.VIEW"
+		        android:targetPackage="it.tiedor.android.mytvSeries"
+		        android:targetClass="it.tiedor.android.mytvSeries.MyDropBoxLoadActivity" >
+		        	<extra android:name="mode" android:value="DOWNLOAD" />
+		        </intent>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="@string/pref_title_load_on_dropbox"
+	        android:summary="@string/pref_summary_load_on_dropbox"
+	        android:key="dropbox_upload">
+			<intent
+			    android:action="android.intent.action.VIEW"
+		        android:targetPackage="it.tiedor.android.mytvSeries"
+		        android:targetClass="it.tiedor.android.mytvSeries.MyDropBoxLoadActivity" >
+		        	<extra android:name="mode" android:value="UPLOAD" />
+		        </intent>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
